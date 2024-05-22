@@ -1,7 +1,10 @@
-
+import styles from './Footer.module.css'
 
 export function Footer() {
   return (
-    <h1>Footer</h1>
+
+    <footer className={styles.footer}>
+    <span>Footer</span>
+    </footer>
   )
 }

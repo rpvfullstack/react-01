@@ -1,24 +1,38 @@
-import {Header}  from "./Componentes/Header/Header"
-import { Pagina2 } from "./Componentes/Pagina2"
-import { Pagina3 } from "./Componentes/Pagina3"
-
+import { Routes, Route} from 'react-router-dom'
+import { Home } from './Componentes/Home'
+import { Contato } from './Componentes/Contato'
+import { Footer } from './Componentes/Footer'
+import { Header } from './Componentes/Header'
+import { Historia } from './Componentes/Historia'
+import { Missao } from './Componentes/Missao'
+import { Produto } from './Componentes/Produto'
 import './Styles.global.css'
-
 
 function App() {
 
   return (
-    <>
-
-    <h1>Página APP</h1>
-    
+  
+    <div>
     <Header />
-    <Pagina2 />
-    <Pagina3 />
+
+    <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='/missao' element={<Missao />} />
+    <Route path='/produto' element={<Produto />} />
+    <Route path='/historia' element={<Historia />} />
+    <Route path='/contato' element={<Contato />} />
+    </Routes>
+
+    <Footer />
+
+    </div>
+
+  
+ 
    
    
    
-    </>
+    
   )
 }
 

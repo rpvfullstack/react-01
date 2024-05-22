@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+
 body{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: bold;
-    background-color: #f245
+    font-family: 'roboto', 'sans-serif';
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 255, 248);
+    margin: 0;
 }
