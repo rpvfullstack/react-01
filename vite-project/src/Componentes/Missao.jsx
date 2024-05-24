@@ -1,6 +1,6 @@
 
-export function Missao() {
+export function Missao(props) {
   return (
-    <h1>Missao</h1>
+    <h1>{props.nomePagina}</h1>
   )
 }

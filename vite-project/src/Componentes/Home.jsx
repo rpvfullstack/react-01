@@ -1,6 +1,6 @@
 
-export function Home() {
+export function Home(props) {
   return (
-    <h1>Home</h1>
+    <h1>{props.nomePagina}</h1>
   )
 }

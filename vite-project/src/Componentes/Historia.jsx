@@ -1,6 +1,6 @@
 
-export function Historia() {
+export function Historia(props) {
   return (
-    <h1>Historia</h1>
+    <h1>{props.nomePagina}</h1>
   )
 }

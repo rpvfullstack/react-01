@@ -1,6 +1,6 @@
 
-export function Produto() {
+export function Produto(props) {
   return (
-    <h1>Produto</h1>
+    <h1>{props.nomePagina}</h1>
   )
 }

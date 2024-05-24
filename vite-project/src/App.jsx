@@ -16,14 +16,14 @@ function App() {
     <Header />
 
     <Routes>
-    <Route path='/' element={<Home />} />
-    <Route path='/missao' element={<Missao />} />
-    <Route path='/produto' element={<Produto />} />
-    <Route path='/historia' element={<Historia />} />
-    <Route path='/contato' element={<Contato />} />
+    <Route path='/' element={<Home nomePagina='Pagina Inicial' />} />
+    <Route path='/missao' element={<Missao nomePagina='Nossão Missão' />} />
+    <Route path='/produto' element={<Produto nomePagina='Nossos Produtos' />} />
+    <Route path='/historia' element={<Historia nomePagina='Nossa História' />} />
+    <Route path='/contato' element={<Contato nomePagina='Contato' />} />
     </Routes>
 
-    <Footer />
+    {<Footer nomeFooter='Atividade Prática' />}
 
     </div>
 

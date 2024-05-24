@@ -4,5 +4,6 @@
     padding:20px;
     bottom:0;
     width: 100%;
-    position: fixed;   
+    position: fixed;  
+    left:0; 
 }
