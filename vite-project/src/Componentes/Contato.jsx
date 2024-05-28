@@ -33,11 +33,13 @@ export function Contato() {
               <Box>
                 <FormLabel>Nome Completo</FormLabel>
                 <Input id='nome' placeholder='Nome Completo' />
+                
               </Box>
               <Box>
                 <FormLabel>E-mail</FormLabel>
-                <Input id='email' placeholder='E-mail' />
+                <Input id='email' placeholder='E-mail' />  
               </Box>
+             
             </HStack>
 
             <HStack>
@@ -51,8 +53,44 @@ export function Contato() {
               </Box>
             </HStack>
 
-         
+            <HStack>
+              <Box>
+                <FormLabel>Celular</FormLabel>
+                <Input id='cel' type="number" placeholder='Celular' />
+              </Box>
+              <Box>
+                <FormLabel>Telefone</FormLabel>
+                <Input id='tel' type="number" placeholder='Telefone' />
+              </Box>
+            </HStack>
 
+            <HStack>
+              <Box>
+                <FormLabel>Endereço</FormLabel>
+                <Input id='endereco' placeholder='Endereço' />
+              </Box>
+              <Box>
+                <FormLabel>Cidade</FormLabel>
+                <Input id='cidade' placeholder='Cidade' />
+              </Box>
+            </HStack>
+
+            <HStack>
+              <Box>
+                <FormLabel>Sexo</FormLabel>
+                <RadioGroup>
+                <HStack>
+                  <Radio value="Masculino">Masculino</Radio>
+                  <Radio value="Feminino">Feminino</Radio>
+                  </HStack>
+                </RadioGroup>
+              </Box>
+            </HStack>
+            <HStack>
+              <Button>
+                Enviar
+              </Button>
+            </HStack>
           </FormControl>
         </Center>
       </Flex>
